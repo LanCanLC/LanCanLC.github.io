@@ -1,0 +1,20 @@
+# secrets and local env — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+*.secret
+**/secrets/
+**/.netlify-bot-*
+**/.cf-bot-*
+**/private-key*
+node_modules/
+dist/
+.DS_Store
+.vscode/
+.idea/
